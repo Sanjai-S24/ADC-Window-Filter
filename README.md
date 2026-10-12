@@ -1,9 +1,19 @@
-Softwares used:
+Software used:
 
 
 
 1. STM32CubeIDE
 2. STM32CubeMX
+
+
+
+Hardware used:
+
+
+
+1. ST Link debugger
+
+
 
 
 
@@ -20,6 +30,18 @@ Building the firmware:
 
 Flashing the firmware:
 
-1. Open Run->Debug Configurations and select the STM32 Cortex-M C/C++ Application configuration for the project. Verify that the ST-LINK debugger is inserted and selected.
-2. Click Debug to download the firmware to the microcontroller.
+
+
+1. Open Run and select Debug Configurations. Then select the STM32 Cortex-M C/C++ Application configuration for the project.
+2. Verify that the ST-LINK debugger is inserted and selected.
+3. Click Debug to download the firmware to the microcontroller.
+
+
+
+Verification (Logging)
+
+
+
+1. Open any serial monitor such as PuTTY or TeraTerm
+2. Connect to the port it is connected and observe.
 
